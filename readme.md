@@ -1,3 +1,5 @@
+**Note:** This fork has a patch for Indigo which adds signup codes. It adds `invites` table to structure.sql, adds one use "invite codes" (main.go & handlers.go) which are managed in the admin panel. (views/admin/manage.html) Once this is installed, there is no setting to remove invite codes and they will be there until removed in handlers.go by hand. (comment out the lines)
+
 # Indigo
 The Miiverse clone to end all Miiverse clones, for real this time. **NOTICE:** This code is WIP and is only being posted to fix errors more easily.
 ## What is this?
